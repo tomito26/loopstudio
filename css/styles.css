@@ -102,7 +102,7 @@ nav ul li a{
 }
 .moreinfo p{
     margin-top: 20px;
-    color: hsl(0, 0%, 55%);
+    color: hsl(0, 0%, 41%);
     line-height: 20px;
 }
 
@@ -115,8 +115,28 @@ nav ul li a{
     justify-content: space-between;
 }
 .creations-heading h2{
+    font-size: 30px;
     font-family: "Lato",sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 5px;
     
+}
+.creations-heading a{
+    font-size: 15px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: "Alata";
+    text-decoration: none;
+    color:hsl(0, 0%, 0%) ;
+    border: 2px solid hsl(0, 0%, 0%);
+    padding: 5px 16px;
+
+}
+
+.creations-heading a:hover{
+    background: hsl(0, 0%, 0%);
+    color: #fff;
 }
 
 
