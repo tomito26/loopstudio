@@ -179,7 +179,7 @@ nav ul li a{
 footer{
     background-color: hsl(0, 0%, 0%);
     color: hsl(0, 0%, 100%);
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .wrapper{
     width: 1000px;
@@ -191,7 +191,7 @@ footer{
     padding: 30px 0;
 }
 .footer-links .loop-logo img{
-    width: 100px;
+    width: 130px;
 }
 .footer-links ul{
     display: block;
@@ -201,7 +201,44 @@ footer{
     display: inline-block;
     padding: 5px;
     text-align: center;
+    margin: 0 5px;
+}
+.footer-links ul li:first-child{
+    padding-left: 0;
+    margin-left: 0;
 }
 .footer-links ul li a{
-    
+    font-family: "Lato",sans-serif;
+     text-decoration: none;
+     color: hsl(0, 0%, 100%);
+     font-size: 13px;
+     font-weight: 300px;
+     
+}
+.social-media{
+    padding: 30px 0;
+
+}
+.social-media ul {
+    display: block;
+    list-style: none;
+    margin-left: 130px;
+}
+.social-media ul li {
+    display: inline-block;
+    padding: 3px;
+   
+}
+.social-media ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    text-align: right;
+    /* margin:20px 0; */
+}
+.copyright{
+    color: hsl(0, 0%, 55%);
+    font-family: "Lato",sans-serif;
+    font-size: 13px;
+    margin-top: 20px 0;
 }
